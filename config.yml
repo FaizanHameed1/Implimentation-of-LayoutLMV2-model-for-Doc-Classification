@@ -1,0 +1,16 @@
+train_config:
+  train_data: "/media/umar_visionx/Backup Plus/Active/Faizan/image_data"
+  train_ocr_path: "/media/umar_visionx/Backup Plus/Active/Faizan/data_comp"
+  loss_list_path: "/media/umar_visionx/Backup Plus/Active/Faizan/"
+  tens_board: "/home/umar_visionx/Desktop/pack/tensor_board/"
+  resume_training: False
+  run_date:
+  total_epochs: 20
+  batch_size: 4
+  validation_split: 0.1
+  class_path: "/media/umar_visionx/Backup Plus/Active/Faizan/doc_classifier_classes.txt"
+  checkpoint_path: "/media/umar_visionx/Backup Plus/Active/Faizan/raw_model/test_model.pth"
+test_config:
+  test_model_path: "/media/umar_visionx/Backup Plus/Active/Faizan/raw_model/test_model.pth"
+  test_data: "/media/umar_visionx/Backup Plus/Active/Faizan/test/images/"
+  test_ocr_path: "/media/umar_visionx/Backup Plus/Active/Faizan/test-set/EntityData/"
